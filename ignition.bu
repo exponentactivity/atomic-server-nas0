@@ -1,9 +1,9 @@
 variant: fcos
-version: 1.4.0
+version: 1.6.0
 ignition:
   config:
     merge:
-      source: https://github.com/exponentactivity/atomic-server/raw/refs/heads/main/ignition.ign
+      - source: https://raw.githubusercontent.com/exponentactivity/atomic-server/refs/heads/main/ignition.ign
 systemd:
   units:
     - name: ucore-unsigned-autorebase.service
