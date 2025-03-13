@@ -13,7 +13,7 @@ FROM ghcr.io/exponentactivity/atomic-server:latest
 ## make modifications desired in your image and install packages by modifying the build.sh script
 ## the following RUN directive does all the things required to run "build.sh" as recommended.
 
-#COPY ./rootdirectory /
+COPY ./rootdirectory /
 
 COPY build.sh /tmp/build.sh
 
