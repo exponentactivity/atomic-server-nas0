@@ -17,7 +17,7 @@ Volume=/var/mnt/data/usenet:/data/usenet:z
 Volume=/var/mnt/data/movies:/data/movies:z
 
 
-Network=arr.network
+#Network=arr.network
 
 PublishPort=7878:7878
 
